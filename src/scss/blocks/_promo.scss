@@ -1,0 +1,50 @@
+.promo {
+    min-height: 1080px;
+    padding: 0 0 93px 0;
+    position: relative;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 185px;
+        align-items: flex-start;
+    }
+    &__header{
+        height: 165px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 64px;
+        font-weight: 400;
+        text-align: left;
+        color: #fff;
+    }
+    &__devider {
+        width: 103px;
+        height: 4px;
+        background-color: #ffaf26;
+        margin-top: 28px;
+    }
+    &__subheader {
+        margin-top: 25px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 32px;
+        font-weight: 300;
+        text-align: left;
+        color: #fff;
+    }
+    &__btn {
+        width: 284px;
+        height: 68px;
+        margin-top: 187px;
+        padding: 19px 45px 22px;
+        border: 0;
+        border-radius: 12px;
+        background-image: linear-gradient(103deg, #503e9d, #5b7bfb);
+        font-size: 18px;
+        font-weight: 300;
+        letter-spacing: 0.08px;
+        text-align: center;
+        color: #fff;
+        z-index: 1;
+    }
+    
+}
+

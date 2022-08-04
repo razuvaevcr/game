@@ -1,0 +1,41 @@
+.clients {
+    padding-bottom: 235px;
+    &__title {
+        font-size: 45px;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fff;
+    }
+    &__subtitle {
+        padding-top: 27px;
+        font-size: 32px;
+        font-weight: 300;
+        text-align: left;
+        color: #fff;
+    }
+    &__adv {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 200px;
+        &-item {
+            &-number {
+                font-size: 80px;
+                font-weight: 400;
+                letter-spacing: 0.96px;
+                text-align: left;
+                color: #635ee2;
+                text-align: center;
+            }
+            &-descr {
+                margin-top: 6px;
+                font-size: 24px;
+                font-weight: 400;
+                letter-spacing: normal;
+                text-align: left;
+                color: #fff;
+                text-align: center;
+            }
+        }
+    }
+}

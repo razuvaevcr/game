@@ -1,0 +1,63 @@
+@import 'libs/slick';
+
+@import 'base/dots';
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #22242f;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    &__gamepad {
+        width: 999px;
+        height: 729px;
+        position: absolute;
+        transform: rotate(8deg);
+        top: 270px;
+        right: -40%;
+    }
+    &__dots {
+        &-1 {
+            left: -32%;
+            top: 70%;
+            &::after {
+                left: -27%;
+                top: 12%;
+            }
+        }
+        &-2 {
+            right: -24%;
+            top: 14%;
+            &::after {
+                top: -80%;
+            }
+        }
+        &-3 {
+            left: -15%;
+            top: -45%;
+            &::after {
+                left: -35%;
+                top: 65%;
+            }
+        }
+        
+    }
+}
+
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/clients';
+@import 'blocks/offer';
+@import 'blocks/projects';
+@import 'blocks/contacts';
+@import 'blocks/footer';

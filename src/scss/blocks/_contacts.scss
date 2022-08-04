@@ -1,0 +1,119 @@
+.contact {
+    padding-bottom: 46px;
+    &__wrapper {
+        width: 640px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    &__title {
+        font-size: 48px;
+        line-height: 1.67;
+        text-align: left;
+        color: #fff;
+    }
+    &__phone {
+        margin-top: 39px;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.33;
+        text-align: left;
+        color: #fff;
+    }
+    &__email {
+        margin-top: 11px;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.33;
+        text-align: left;
+        color: #fff;
+    }
+    &__social {
+        margin-top: 27px;
+        width: 135px;
+        height: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-img {
+            width: 55px;
+            height: 55px;
+        }
+    }
+    &__picture {
+        margin-top: 117px;
+        width: 656px;
+        height: 362px;
+        transform: translateX(-30px);
+    }
+    &__devider {
+        width: 638px;
+        height: 4px;
+        background-color: #5a75f2;
+        margin-top: auto;
+    }
+
+    &__form {
+        box-sizing: border-box;
+        width: 724px;
+        padding: 54px 62px 40px;
+        border-radius: 12px;
+        background-color: #505065;
+        > * {
+            box-sizing: border-box;
+            width: 600px;
+            height: 60px;
+            padding: 20px 33px;
+            border-radius: 12px;
+            box-shadow: 3px 3px 20px 0 rgba(120, 104, 190, 0.16);
+            background-color: #22242f;
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.31;
+            letter-spacing: 0.06px;
+            text-align: left;
+            color: #f5f5ff;
+            border: none;
+            outline: none;
+            &::placeholder {
+                color: #fff;
+            }
+            &:focus {
+                border: 1px solid #5a75f2;
+            }
+        }
+        &-subject, &-email,  &-idea {
+            margin-top: 36px;
+        }
+        &-idea {
+            resize: none;
+            height: 355px;
+        }
+        &-btn {
+            border: none;
+            display: block;
+            margin: 58px auto 0;
+            width: 284px;
+            height: 68px;
+            border-radius: 12px;
+            background-image: linear-gradient(103deg, #503e9d, #5b7bfb);
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 1.35;
+            letter-spacing: 0.08px;
+            text-align: center;
+            color: #fff;
+            cursor: pointer;
+            &:focus {
+                border: none;
+                filter: grayscale(40%);
+            }
+        }
+    }
+
+}
+
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+}
